@@ -66,7 +66,7 @@ except Exception as e:
 try:
     # Simula la carga de la clave de la API
     # gemini_api_key = st.secrets["gemini"]["api_key"]
-    gemini_api_key = "TU_API_KEY_DE_GEMINI" # Reemplaza esto con tu clave real
+    gemini_api_key = "AIzaSyBIAidcxExUpA4AbplXFNyp3htKRR5ulak" # Reemplaza esto con tu clave real
     genai.configure(api_key=gemini_api_key)
     gemini_model = genai.GenerativeModel('gemini-1.5-flash')
 except Exception as e:
